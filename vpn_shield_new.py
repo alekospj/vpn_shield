@@ -10,6 +10,7 @@ if __name__ == "__main__":
 
 	
 	ip = socket.gethostbyname(socket.gethostname())
+    #Setting here the program tha you want to close when a changing of an IP is detected. 
 	program_loc = r"C:\Users\xoxlios\Desktop\uTorrent\uTorrent.exe"
 	
 	def open_program(path_name):
